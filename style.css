@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Bangers', cursive;
 }
 
 #canvas1 {
-  background: url("./assets/background.png");
+  background: url('./assets/background.png');
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,6 +21,6 @@
   pointer-events: none;
 }
 
-#obstacles, #bull, #egg, #toad, #larva {
+#obstacles, #bull, #egg, #toads, #larva {
   display: none;
 }
